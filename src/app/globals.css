@@ -8,6 +8,24 @@ body{
   background-color: black;
 }
 
-h1{
+h1,h2{
   color: burlywood;
+}
+
+.row{
+  background-color: brown;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.prow{
+  color: black;
+  background-color: aquamarine;
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px;
 }
