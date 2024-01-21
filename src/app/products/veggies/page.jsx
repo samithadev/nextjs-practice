@@ -11,6 +11,7 @@ function page() {
 
   return (
     <div>
+      <h3><Link href="/">Home</Link></h3>
         <h2>veggies page</h2>
 
         <ul>
