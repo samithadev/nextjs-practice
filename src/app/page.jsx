@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
+      <p className={styles.p}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut provident aliquam at neque animi dolore doloremque ut culpa deserunt nihil odit rem, adipisci numquam fuga reiciendis nesciunt, a cumque.</p>
       <ul>
         <li><Link href="/" className={styles.link}>Home</Link></li>
         <li><Link href="/services" className={styles.link}>Services</Link></li>
