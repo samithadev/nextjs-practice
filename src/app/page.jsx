@@ -2,11 +2,14 @@ import Link from "next/link";
 import styles from './page.module.css'
 import Image from "next/image";
 import img1 from '../../public/web1.png'
+import Button from "./(components)/Button";
 
 export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
+
+      <Button/>
 
       <Image src={img1} alt="sample img" className={styles.img}/>
 
