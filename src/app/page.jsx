@@ -1,10 +1,17 @@
 import Link from "next/link";
 import styles from './page.module.css'
+import Image from "next/image";
+import img1 from '../../public/web1.png'
 
 export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
+
+      <Image src={img1} alt="sample img" className={styles.img}/>
+
+      <Image src={"https://images.unsplash.com/photo-1682686580036-b5e25932ce9a?q=80&w=1075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}  alt="remote img" className={styles.img} width={1000} height={1000}/>
+
       <p className={styles.p}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel aut provident aliquam at neque animi dolore doloremque ut culpa deserunt nihil odit rem, adipisci numquam fuga reiciendis nesciunt, a cumque.</p>
       <ul>
         <li><Link href="/" className={styles.link}>Home</Link></li>
